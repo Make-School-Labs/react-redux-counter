@@ -1,3 +1,17 @@
+
+# React + Redux Counters Example
+
+Use this file as place to practice with Redux. 
+
+Try these challenges: 
+
+- Average component - Displays the average of all counters. Use the Total component as a model. 
+- Reset all counters - Resets all counters back to 0. Use the Reset button and RESET actions as a mode. 
+- Add Remove Counter Button - This component is a button that when clicked removes a counter. You'll need to identify the index of the counter that will be removed. Or you could remove that last counter. Or, provided with an index it removes the counter at that index, or removes the last counter.
+- 
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
