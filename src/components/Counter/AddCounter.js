@@ -1,6 +1,6 @@
 import React from 'react'
 import { connect } from 'react-redux'
-import { addCounter } from '../actions'
+import { addCounter } from '../../actions'
 
 function AddCounter(props) {
   return (

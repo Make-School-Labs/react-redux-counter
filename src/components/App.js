@@ -1,16 +1,19 @@
 import React, { Component } from 'react';
-import { Provider } from 'react-redux'
+import { Provider, connect } from 'react-redux'
 import { createStore } from 'redux'
 import './App.css';
 import reducers from '../reducers'
-import Total from './Total'
-import AddCounter from './AddCounter'
 
-import CounterList from './CounterList'
+import { AddCounter, Total, CounterList } from './Counter'
 
 const store = createStore(reducers)
 
 class App extends Component {
+
+  // const total = useSelector((state) => {
+  //   return state.total
+  // })
+
   render() {
     return (
       <Provider store={store}>

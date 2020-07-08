@@ -38,7 +38,9 @@ const counterreducer = (state = [0, 0], action) => {
       })
 
     case ADD_COUNTER: 
-      return [...state, 0]
+      // state.push(0) // BAD!!! 
+      // return state 
+      return [...state, 0] // copying state 
 
     default: 
       return state
